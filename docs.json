@@ -4,9 +4,9 @@
   "name": "StarkDoctor",
   "description": "Documentação do sistema de gestão para clínicas StarkDoctor.",
   "colors": {
-    "primary": "#9BE000",
-    "light": "#B8F23D",
-    "dark": "#6E9F00"
+    "primary": "#B7F000",
+    "light": "#D7FF63",
+    "dark": "#789E00"
   },
   "logo": {
     "light": "/logo/light.svg",
