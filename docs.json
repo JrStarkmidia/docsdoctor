@@ -1,0 +1,58 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "StarkDoctor",
+  "description": "Documentação do sistema de gestão para clínicas StarkDoctor.",
+  "colors": {
+    "primary": "#9BE000",
+    "light": "#B8F23D",
+    "dark": "#6E9F00"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "/"
+  },
+  "favicon": "/starkmidia_icon.svg",
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Comece aqui",
+        "pages": [
+          "index",
+          "comece-aqui/visao-geral",
+          "comece-aqui/acesso"
+        ]
+      },
+      {
+        "group": "Módulos",
+        "pages": [
+          "modulos/agenda",
+          "modulos/pacientes",
+          "modulos/financeiro",
+          "modulos/ficha-clinica",
+          "modulos/modelos-e-documentos"
+        ]
+      },
+      {
+        "group": "Administração",
+        "pages": [
+          "administracao/usuarios-e-permissoes"
+        ]
+      },
+      {
+        "group": "Suporte",
+        "pages": [
+          "suporte/boas-praticas"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  }
+}
