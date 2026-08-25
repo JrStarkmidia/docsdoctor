@@ -18,6 +18,19 @@
     "default": "system",
     "strict": false
   },
+  "navbar": {
+    "links": [
+      {
+        "label": "Suporte",
+        "href": "mailto:comercial@starkmidia.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Entrar no sistema",
+      "href": "https://starkdoctor.com.br"
+    }
+  },
   "navigation": {
     "groups": [
       {
