@@ -25,29 +25,62 @@
         "pages": [
           "index",
           "comece-aqui/visao-geral",
-          "comece-aqui/acesso"
+          "comece-aqui/acesso",
+          "comece-aqui/navegacao"
         ]
       },
       {
-        "group": "Módulos",
+        "group": "Pacientes e atendimento",
         "pages": [
-          "modulos/agenda",
           "modulos/pacientes",
-          "modulos/financeiro",
+          "modulos/busca",
+          "modulos/agenda",
+          "modulos/historico-agendamento",
           "modulos/ficha-clinica",
-          "modulos/modelos-e-documentos"
+          "modulos/procedimentos",
+          "modulos/documentos-paciente"
+        ]
+      },
+      {
+        "group": "Documentos",
+        "pages": [
+          "modulos/modelos-e-documentos",
+          "documentos/receituarios-e-contratos",
+          "documentos/atestados-e-declaracoes",
+          "documentos/exames-e-consentimentos"
+        ]
+      },
+      {
+        "group": "Financeiro",
+        "pages": [
+          "modulos/financeiro",
+          "financeiro/receitas",
+          "financeiro/despesas",
+          "financeiro/parcelamentos"
+        ]
+      },
+      {
+        "group": "Operação",
+        "pages": [
+          "operacao/procedimentos-e-servicos",
+          "operacao/pedidos-e-orcamentos",
+          "operacao/produtos-e-estoque",
+          "operacao/fornecedores"
         ]
       },
       {
         "group": "Administração",
         "pages": [
-          "administracao/usuarios-e-permissoes"
+          "administracao/usuarios-e-permissoes",
+          "administracao/agenda",
+          "administracao/catalogos"
         ]
       },
       {
         "group": "Suporte",
         "pages": [
-          "suporte/boas-praticas"
+          "suporte/boas-praticas",
+          "suporte/recursos-em-evolucao"
         ]
       }
     ]

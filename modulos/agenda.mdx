@@ -1,28 +1,53 @@
 ---
 title: Agenda
-description: Organize os compromissos e atendimentos da clínica.
+description: Crie compromissos, bloqueie horários e acompanhe os atendimentos.
 ---
 
-A Agenda concentra o acompanhamento dos compromissos da clínica e permite consultar a rotina de atendimentos de forma organizada.
+A Agenda possui uma visão diária e uma visão semanal. Os horários são gerados de acordo com o intervalo e o período configurados para a empresa.
 
 ## Criar um agendamento
 
-1. Abra **Agenda** no menu principal.
-2. Selecione a opção para adicionar um agendamento.
-3. Escolha o paciente ou localize um cadastro existente.
-4. Informe data, horário, profissional e os demais campos disponíveis.
-5. Salve o agendamento.
+1. Abra **Agenda**.
+2. Escolha o dia usando o campo de data ou as setas de navegação.
+3. Selecione o horário disponível.
+4. Informe o paciente.
+5. Escolha o procedimento.
+6. Confirme horário inicial, horário final e observações.
+7. Salve.
 
-Antes de salvar, confirme a data, o horário e o profissional para evitar conflitos na agenda.
+Também é possível iniciar o agendamento a partir do cadastro do paciente.
 
-## Consultar a agenda
+## Visualização semanal
 
-Use os filtros e as visualizações disponíveis para localizar compromissos por período, paciente ou profissional. A visualização semanal é útil para conferir a distribuição dos atendimentos.
+Use **Verificar Semana** para consultar os horários de vários dias. A grade mostra o profissional, os horários e os pacientes agendados. Clique em um dia para voltar à visão detalhada.
 
-## Alterações e cancelamentos
+## Situações do agendamento
 
-Quando um compromisso mudar, edite o agendamento original sempre que possível. Para cancelamentos, registre a situação correta e preserve o histórico da operação conforme a política da clínica.
+| Situação | Uso |
+| --- | --- |
+| Agendado | Horário reservado, ainda sem confirmação. |
+| Confirmou | Paciente confirmou presença. |
+| Atendido | Atendimento realizado. |
+| Desmarcou | Paciente desmarcou. |
+| Faltou | Paciente não compareceu. |
+| Cancelado | Agendamento cancelado. |
+| Bloqueado | Horário indisponível para novos agendamentos. |
 
-<Tip>
-  Mantenha os dados de contato do paciente atualizados. Isso reduz falhas na confirmação e facilita a localização do cadastro.
-</Tip>
+As mudanças seguem uma sequência controlada: um agendamento pode sair de **Agendado** para confirmação, desmarcação, falta ou cancelamento; após **Confirmou**, pode ser marcado como **Atendido** ou **Cancelado**.
+
+<Note>
+  Registros antigos com status `pendente` são apresentados na interface como **Agendado**.
+</Note>
+
+## Bloquear horários
+
+1. Abra o dia desejado.
+2. Selecione os intervalos livres.
+3. Escolha a ação de bloqueio em massa.
+4. Confirme.
+
+Horários ocupados são ignorados. Para liberar um bloqueio, selecione o registro bloqueado e use **Desbloquear**.
+
+<Warning>
+  Bloquear horário não é o mesmo que cancelar um atendimento. Confira se o intervalo já possui paciente antes de realizar uma ação em massa.
+</Warning>
