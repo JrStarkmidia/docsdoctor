@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "StarkDoctor",
-  "description": "Documentação do sistema de gestão para clínicas StarkDoctor.",
+  "name": "StarkMidia Doctor",
+  "description": "Documentação do sistema de gestão para clínicas StarkMidia Doctor.",
   "colors": {
     "primary": "#007BFF",
     "light": "#00A3FF",
